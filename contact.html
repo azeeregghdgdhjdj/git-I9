@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> identification et inscription</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style33.css">
+    
+    <script src="script3.js"></script>
+    <script src="script33.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+   
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+          <script src="https://kit.fontawesome.com/498d14878f.js" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="assets/css/reset.css">
+          
+       </head>
+       <body>
+          <main>
+             <div class="wrapper">
+                <section id="indentification">
+                   <form action="identification" method="post">
+                      <fieldset>
+                         <legend>
+                            <h1><i class="fab fa-odnoklassniki-square"></i><strong>identification</strong></h1>
+                         </legend>
+                         <!-- Entête du formulaire -->
+                         <!-- Fin -->
+                         <!-- début du Champ Utilisateur  -->
+                         <p>
+                            <i class="fas fa-square"></i>
+                            <label for="user">Nom d'utilisateur</label>
+                            <input type="text" name="user" id="user" value="" placeholder="Utilisateur">
+                         </p>
+                         <!-- Fin -->
+                         <!-- début du Champ Courriel  -->
+                         <p>					
+                            <i class="fas fa-square"></i>
+                            <label for="mail">Courriel</label>
+                            <input type="email" name="mail" id="mail" value="" placeholder="Utilisateur@site.com">
+                         </p>
+                         <!-- Fin -->
+                         <!-- début du Champ MDP  -->
+                         <p>
+                            <i class="fas fa-square"></i>
+                            <label for="mdp">Mot de passe</label>
+                            <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" value="">
+                         </p>
+                      </fieldset>
+                      <!-- Fin -->
+                      <!-- début du bouton identification  -->
+                      <p>
+                         <input type="submit" name="Identification" class="button" value="Identification">
+                      </p>
+                      <!-- Fin -->
+                      <!-- début du checkbox se rappeler de moi  -->
+                      <p class="remember">
+                         <input type="checkbox" name="remember" id="remember">
+                         <label for="checkbox">Se rappeler de moi</
+                            <!-- début du lien MDP oublié  -->
+                            <a href="">Mot de passe oublié</a>
+                          </label>	
+                      </p>
+                   </form>
+                </section>
+                <!-- FIN FORMULAIRE INDENTIFICATION -->
+                <section id="inscription">
+                   <!-- début formulaire inscription  -->
+                   <form action="inscription" class="inscription" method="post">
+                      <fieldset>
+                         <!-- Entête du formulaire -->
+                         <legend>
+                            <h1><i class="fab fa-odnoklassniki-square"></i><strong>Inscription</strong></h1>
+                         </legend>
+                         <p>
+                            <i class="fas fa-square"></i>
+                            <label for="user">Nom d'utilisateur</label>
+                            <input type="text" name="user" id="iuser" value="" placeholder="Utilisateur">
+                         </p>
+                         <!-- Fin -->
+                         <!-- début du Champ Courriel  -->
+                         <p>					
+                            <i class="fas fa-square"></i>
+                            <label for="mail">Courriel</label>
+                            <input type="email" name="mail" id="imail" value="" placeholder="Utilisateur@site.com">
+                         </p>
+                         <!-- Fin -->
+                         <!-- début du Champ MDP  -->
+                         <p>
+                            <i class="fas fa-square"></i>
+                            <label for="mdp">Mot de passe</label>
+                            <input type="password" name="mdp" id="imdp" placeholder="Mot de passe" value="">
+                         </p>
+                         <!-- début du Champ Confirmer MDP  -->
+                         <p>
+                            <i class="fas fa-square"></i>
+                            <label for="cmdp">Confirmer le mot de passe</label>
+                            <input type="password" name="cmdp" id="cmdp" placeholder="Mot de passe" value="">
+                         </p>
+                      </fieldset>
+                      <!-- début du bouton identification  -->
+                      <p>
+                         <input type="submit" name="inscription" class="button" value="Inscription">
+                      </p>
+                         <p class="ligne">
+                            <label>
+                               <input type="checkbox" name="accept" id="accept" >J'accepte
+                               <!-- début du lien MDP oublié  -->
+                               <a href="">les conditions d'inscription</a>
+                            </label>
+                         </p>
+                      </div>
+                   </form>
+                </section>
+             </div>
+          </main>
+       </body>
+    </html>
+    
+
+  	
